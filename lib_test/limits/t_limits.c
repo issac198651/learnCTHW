@@ -12,8 +12,11 @@ int main()
 	printf("The minimum value of SHORT INT = %d\n", SHRT_MIN);
 	printf("The maximum value of SHORT INT = %d\n", SHRT_MAX);
 	
-	printf("The minimum value of INT = %d\n", CHAR_MIN);
-	printf("The maximum value of INT = %d\n", CHAR_MAX);
+	printf("The minimum value of INT = %d\n", INT_MIN);
+	printf("The maximum value of INT = %d\n", INT_MAX);
+	
+	printf("The minimum value of CHAR = %d\n", CHAR_MIN);
+	printf("The maximum value of CHAR = %d\n", CHAR_MAX);
 	
 	printf("The minimum value of LONG = %ld\n", LONG_MIN);
 	printf("The maximum value of LONG = %ld\n", LONG_MAX);
