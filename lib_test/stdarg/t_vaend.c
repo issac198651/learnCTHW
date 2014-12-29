@@ -9,13 +9,13 @@ int main()
 	return 0;
 }
 
-int sum(int num_args, ...)
+int mul(int num_args, ...)
 {
 	int val = 1;
 	va_list ap;
 	int i;
 	
-	var_start(ap, num_args);
+	va_start(ap, num_args);
 	for(i = 0; i < num_args; i++)
 	{
 		val *= va_arg(ap, int);
