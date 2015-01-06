@@ -9,6 +9,7 @@ int main()
 	fp = fopen("file.txt", "r");
 	if(fp == NULL)
 	{
+		printf("Error number: %d\n", errno);
 		printf("Error: %s\n", strerror(errno));
 	}
 

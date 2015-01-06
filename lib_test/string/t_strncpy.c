@@ -8,7 +8,7 @@ int main()
 
 	memset(dest, '\0', sizeof(dest));
 	strcpy(src, "This is tutorialspoint.com");
-	strcpy(dest, src, 10);
+	strncpy(dest, src, 10);
 
 	printf("Final copied string: %s\n", dest);
 

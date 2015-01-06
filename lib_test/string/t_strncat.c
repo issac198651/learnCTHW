@@ -8,7 +8,7 @@ int main()
 	strcpy(src, "This is the source");
 	strcpy(dest, "This is the destination");
 
-	strcat(dest, src, 15);
+	strncat(dest, src, 15);
 
 	printf("Final destination string : |%s|\n", dest);
 
