@@ -4,7 +4,7 @@
 int main()
 {
 	const char haystack[20] = "TutorialsPoint";
-	const char needle[10] = "Point";
+	const char needle[10] = "Poins";
 	char *ret;
 
 	ret = strstr(haystack, needle);
@@ -13,3 +13,4 @@ int main()
 
 	return(0);
 }
+// when there is no match, a warning comes up, why???

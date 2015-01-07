@@ -5,7 +5,7 @@ int main()
 {
 	int len;
 	const char str1[] = "ABCDEFG019874";
-	const char str2[] = "ABCD";
+	const char str2[] = "AB0D";
 
 	len = strspn(str1, str2);
 
