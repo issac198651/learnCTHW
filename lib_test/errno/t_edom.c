@@ -30,3 +30,6 @@ int main()
 
 	return(0);
 }
+// invoke like sqrt(3.0) will be optimized by gcc, so no need to 
+// link to math lib; sqrt((int) n) need the link to the math lib
+// so this program need -lm option to compile

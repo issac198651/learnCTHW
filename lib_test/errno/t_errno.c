@@ -12,7 +12,7 @@ int main()
 	if(fp == NULL)
 	{
 		fprintf(stderr, "Value of errno: %d\n", errno);
-		fprintf(stderr, "Error opening file: %s\n", strerror(errno))
+		fprintf(stderr, "Error opening file: %s\n", strerror(errno));
 	}
 	else
 	{
