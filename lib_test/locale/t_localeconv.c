@@ -15,7 +15,7 @@ int main()
 	printf("Local Currency Symbol: %s\n", lc->currency_symbol);
 	printf("International Currency Symbol: %s\n", lc->int_curr_symbol);
 
-	setlocale(LC_MONETARY, "en_GB");
+	setlocale(LC_MONETARY, "en_GB.UTF-8");
 	lc = localeconv();
 	printf("Local Currency Symbol: %s\n", lc->currency_symbol);
 	printf("International Currency Symbol: %s\n", lc->int_curr_symbol);
