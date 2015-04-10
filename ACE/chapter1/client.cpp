@@ -1,3 +1,7 @@
+#include "ace/INET_Addr.h"
+#include "ace/SOCK_Stream.h"
+#include "ace/SOCK_Connector.h"
+
 int ACE_MAIN(int, ACE_TCHAR*[])
 {
 	int ret = 0;

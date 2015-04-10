@@ -1,3 +1,7 @@
+#include "ace/INET_Addr.h"
+#include "ace/SOCK_Stream.h"
+#include "ace/SOCK_Acceptor.h"
+
 int ACE_MAIN(int, ACE_TCHAR*[])
 {
 	ACE_INET_Addr port_to_listen(60000);
